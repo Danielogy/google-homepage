@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <nav>
@@ -16,8 +17,8 @@
             <li id = "links">
                 <ul><a href="#">Gmail</a></ul>
                 <ul><a href="#">Images</a></ul>
-                <ul><a href="#">placeholder</a></ul>
-                <ul><a href="#">Sign in</a></ul>
+                <ul><a href="#"><span class = "material-icons" id = "app-icon">apps</span></a></ul>
+                <ul><a href="#"><button id = "sign-in">Sign in</button></a></ul>
             </li>
         </div>
     </nav>
@@ -28,8 +29,10 @@
             </div>
             <form action="$">
                 <div class="search-bar-container">
-                    <input type="search" name="" id="search-bar">
+                    <input type="text" name="" id="search-bar">
                 </div>
+                <span class="material-icons" id="search-icon">search</span>
+                <span class="material-icons" id="mic-icon">mic</span>
                 <div class="search-buttons">
                     <input type="button" value="Google Search">
                     <input type="button" value="I'm Feeling Lucky">
