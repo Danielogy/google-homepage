@@ -1,3 +1,4 @@
 # google-homepage
 -------------------
-In this first assignment, I must recreate Google's famous homepage.
+Assignement based on The Odin Project
+  Recreation of the famous google homepage
